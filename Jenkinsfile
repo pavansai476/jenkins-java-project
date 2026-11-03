@@ -19,7 +19,7 @@ pipeline {
         }
         stage('checkout') {
             steps {
-                git 'https://github.com/RAHAMSHAIK007/jenkins-java-project.git'
+                git 'https://github.com/pavansai476/jenkins-java-project.git'
             }
         }
         stage('build') {
